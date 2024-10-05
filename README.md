@@ -1,8 +1,48 @@
 ### I am [Daniel](https://github.com/FXastro)
 
-<img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
+```javascipt
+class Person {
+  #age;
+  constructor(name, age) {
+    this.name = name;
+    this.#age = age;
+  }
 
-## Noob lol
+  get age() {
+    return this.#age;
+  }
+
+  set age(newAge) {
+    if (newAge > 0) this.#age = newAge;
+  }
+
+  introduce() {
+    return `My name is ${this.name}`;
+  }
+}
+
+class Teenager extends Person {
+  constructor(name, age, hobby) {
+    super(name, age);
+    this.hobby = hobby;
+  }
+
+  introduce() {
+    return `${super.introduce()} and I'm ${this.age}. I like ${this.hobby}.`;
+  }
+}
+
+class Utility {
+  static prefix = "Output:";
+
+  static print(message) {
+    console.log(`${this.prefix} ${message}`);
+  }
+}
+
+const daniel = new Teenager("Daniel", 16, "coding");
+Utility.print(daniel.introduce());
+```
 
 - 🔭 I’m currently working on **Check My Repos**
 - 🌱 Learning everything about **Scalable Application Development**
