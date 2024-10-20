@@ -5,8 +5,7 @@
 
 ## About Me
 
-JavaScript student specializing in reverse engineering, fixing, and maintaining JavaScript software. With years of experience under my belt, I'm dedicated to solving the most challenging problems in modern web development.
-
+JavaScript student specializing in reverse engineering, fixing, and maintaining JavaScript software.
 ### What I Just Do
 
 - **Reverse Engineering**: Unraveling complex codebases
