@@ -5,7 +5,7 @@
 
 ## About Me
 
-Hello! I'm AstroX10, a passionate JavaScript expert specializing in reverse engineering, fixing, and maintaining complex JavaScript software. With years of experience under my belt, I'm dedicated to solving the most challenging problems in modern web development.
+JavaScript student specializing in reverse engineering, fixing, and maintaining JavaScript software. With years of experience under my belt, I'm dedicated to solving the most challenging problems in modern web development.
 
 ### What I Just Do
 
